@@ -30,7 +30,7 @@ public class FizzBuzzTest {
 
     @ParameterizedTest
     @ValueSource(ints = {15, 30, 45, 60, 75, 90})
-    public void shouldReturnFizzBuzzForDivisibleBy15(int number) {
+    public void shouldReturnFizzBuzzForDivisibleBy3And5(int number) {
         String result = new FizzBuzz().translateNumberToFizzBuzz(number);
         assertThat(result).isEqualTo("FizzBuzz");
     }
