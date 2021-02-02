@@ -1,4 +1,4 @@
-package com.example.demo;
+package de.tobiasgaenzler.javakatastart;
 
 import java.util.stream.IntStream;
 

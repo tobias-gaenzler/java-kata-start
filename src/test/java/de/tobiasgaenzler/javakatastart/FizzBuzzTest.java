@@ -1,4 +1,4 @@
-package com.example.demo;
+package de.tobiasgaenzler.javakatastart;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
